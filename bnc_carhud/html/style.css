@@ -1,0 +1,49 @@
+html{
+	overflow: hidden;
+}
+
+#container {
+	user-select: none;
+	-moz-user-select: none;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	bottom: 1.0vh;
+	right: 44.0vw;
+	height: auto;
+	width: 12.5vw;
+	background-color: transparent;
+}
+
+#speed {
+	color: white;
+	text-align: center;
+	font-family: "Aldrich", sans-serif;
+	font-weight: 600;
+	font-size: xx-large;
+	text-shadow: 0 0 25px rgb(0, 0, 0);
+}
+#rpm {
+	position: absolute;
+	bottom: -0.7vh;
+	right: 45.0vw;
+
+	color: white;
+	text-align: center;
+	font-family: "Aldrich", sans-serif;
+	font-weight: 600;
+	font-size: large;
+	text-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+#gear {
+	position: absolute;
+	bottom: -0.69vh;
+	right: 51.5vw;
+
+	color: white;
+	text-align: center;
+	font-family: "Aldrich", sans-serif;
+	font-weight: 600;
+	font-size: large;
+	text-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
